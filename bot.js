@@ -7,8 +7,8 @@ client.on('message', message => {
 	if (message.content === '.todo') {
 		message.reply('https://apollotv.xyz/todo/');
 	}
-	if (message.content === ':socks:') {
-		message.reply(' :socks: :socks: is it cold? :socks: :socks:');
+	if (message.content === ':zipper_mouth:') {
+		message.reply(' :zipper_mouth: :zipper_mouth:  is it cold? :zipper_mouth: :zipper_mouth:');
 	}
 });
 client.login(process.env.BOT_TOKEN);
