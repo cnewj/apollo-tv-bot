@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = Discord.Client();
+const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ApolloBOT and I am ready to serve you!');
