@@ -10,8 +10,10 @@ client.on('message', message => {
 		 message.channel.send('https://apollotv.xyz/todo/');
 	} else if (message.content === '.download') {
 		 message.channel.send('Sorry the app hasn\'t been released yet');
-	} else if (message.content === 'ApolloBot what are you wearing?') {
-		message.channel.send(`${sock}`);
+	} else if (message.content === 'gimme a test') {
+		message.channel.send(`👑`);
+	} else if (message.content === 'what are you wearing?') {
+		message.channel.send(`I'm wearing ${sock}`);
 	} else if (themessage.includes('socks')) {
 		if (themessage !== `${sock} ${sock} is it cold? ${sock} ${sock}`) {
 			message.channel.send(`${sock} ${sock} is it cold? ${sock} ${sock}`);
