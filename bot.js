@@ -11,7 +11,7 @@ client.on('message', message => {
 	} else if (themessage === '.download') {
 		 message.channel.send('Sorry the app hasn\'t been released yet');
 	} else if (themessage === 'who is the king?') {
-		message.channel.send(`All hail 👑 @"1079" 👑`);
+		message.channel.send(`All hail 👑 @SamJakob#1079 👑`);
 	} else if (themessage === 'what are you wearing?') {
 		message.channel.send(`I'm wearing ${sock}`);
 	} else if (themessage.includes('socks')) {
