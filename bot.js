@@ -7,6 +7,9 @@ client.on('message', message => {
 	if (message.content === '.todo') {
 		 message.channel.send('https://apollotv.xyz/todo/');
 	}
+	if (message.content === '.download') {
+		 message.channel.send('Sorry the app hasn\'t been released yet');
+	}
 	if (message.content === 'socks') {
 		 message.channel.send(' socks socks  is it cold? socks socks');
 	}
