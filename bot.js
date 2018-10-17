@@ -12,6 +12,8 @@ client.on('message', message => {
 		 message.channel.send('Sorry, the app hasn\'t been released yet');
 	} else if (themessage.includes('a supporter')) {
 		 message.channel.send('Sorry, we are no longer adding supporters at this time.');
+	} else if ((themessage.includes('apollo be released')) or (themessage.includes('apollotv be released'))) {
+		 message.channel.send('Sorry, there is no current release date.');
 	} else if (themessage === 'who is the king?') {
 		message.channel.send(`All hail 👑 <@162203541006450688> 👑`);
 	} else if (themessage === 'what are you wearing?') {
