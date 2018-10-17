@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "The Official ApolloTV Discord BOT",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
   "author": "CnewJ",
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.1.0"
   }
 }
