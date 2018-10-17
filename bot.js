@@ -4,7 +4,7 @@ client.on('ready', () => {
 	console.log('I am ApolloBOT and I am ready to serve you!'); 
 });
 client.on('message', message => {
-	var themessage = message.content;
+	var themessage = message.content.toLowerCase();
 	const sock = client.emojis.get("491220639374508032");
 	if (message.content === '.todo') {
 		 message.channel.send('https://apollotv.xyz/todo/');
