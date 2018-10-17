@@ -9,7 +9,9 @@ client.on('message', message => {
 	if (message.content === '.todo') {
 		 message.channel.send('https://apollotv.xyz/todo/');
 	} else if (themessage === '.download') {
-		 message.channel.send('Sorry the app hasn\'t been released yet');
+		 message.channel.send('Sorry, the app hasn\'t been released yet');
+	} else if (themessage === 'can I be a supporter') {
+		 message.channel.send('Sorry, we are no longer adding supporters at this time.');
 	} else if (themessage === 'who is the king?') {
 		message.channel.send(`All hail 👑 <@162203541006450688> 👑`);
 	} else if (themessage === 'what are you wearing?') {
