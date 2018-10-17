@@ -5,16 +5,16 @@ client.on('ready', () => {
 });
 client.on('message', message => {
 	var themessage = message.content;
+	const sock = client.emojis.get("491220639374508032");
 	if (message.content === '.todo') {
 		 message.channel.send('https://apollotv.xyz/todo/');
 	} else if (message.content === '.download') {
 		 message.channel.send('Sorry the app hasn\'t been released yet');
 	} else if (message.content === 'ApolloBot what are you wearing?') {
-		const sock = client.emojis.get("491220639374508032");
 		message.channel.send(`${sock}`);
 	} else if (themessage.includes('socks')) {
-		if (themessage !== ":socks: \:socks: is it cold? \:socks: \:socks:") {
-			message.channel.send('\:socks: \:socks: is it cold? \:socks: \:socks:');
+		if (themessage !== `${sock} ${sock} is it cold? ${sock} ${sock}`) {
+			message.channel.send(`${sock} ${sock} is it cold? ${sock} ${sock}`);
 		}
 	}
 });
