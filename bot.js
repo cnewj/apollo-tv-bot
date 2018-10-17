@@ -10,7 +10,7 @@ client.on('message', message => {
 	if (message.content === '.download') {
 		 message.channel.send('Sorry the app hasn\'t been released yet');
 	}
-	if (message.content === 'socks') {
+	if (message.content.includes('socks')) {
 		 message.channel.send(' socks socks  is it cold? socks socks');
 	}
 });
