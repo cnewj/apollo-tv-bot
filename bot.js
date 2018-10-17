@@ -10,8 +10,8 @@ client.on('message', message => {
 	} else if (message.content === '.download') {
 		 message.channel.send('Sorry the app hasn\'t been released yet');
 	} else if (themessage.includes('socks')) {
-		if (themessage !== ":socks: :socks: is it cold? :socks: :socks:") {
-			message.channel.send(':socks: :socks: is it cold? :socks: :socks:');
+		if (themessage !== "\:socks: \:socks: is it cold? \:socks: \:socks:") {
+			message.channel.send('\:socks: \:socks: is it cold? \:socks: \:socks:');
 		}
 	}
 });
