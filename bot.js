@@ -13,7 +13,7 @@ client.on('message', function (user, userID, channelID, message, evt) {
         switch(cmd) {
             // .todo
             case 'todo':
-                bot.sendMessage({
+                client.sendMessage({
                     to: channelID,
                     message: 'https://apollotv.xyz/todo/'
                 });
